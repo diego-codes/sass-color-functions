@@ -2,7 +2,7 @@
 
 Sass color functions are very powerful and can help you remove the mysticism of how colors work in CSS.
 
-Click here to view my presentation slides.
+Click [here](http://cuyaproductions.github.io/sass-color-functions/presentation/#/) to view my presentation slides.
 
 ## Tools to play with all color functions
 - [Setter functions](http://codepen.io/cuyaproductions/pen/ONBvdr)
