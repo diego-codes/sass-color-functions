@@ -1,0 +1,200 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Sass Color Functions</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+		<style>
+			.reveal section img {
+				background: transparent;
+				border: none;
+				box-shadow: none;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<!-- title -->
+				<section data-markdown>
+					<script type="text/template">
+						# The Power of Sass Color Functions
+
+						SassATX April 2016
+					</script>
+				</section>
+
+				<!-- Content -->
+				<section>
+					<section data-markdown>
+						<script type="text/template">
+							# What we'll discuss
+							- ## Color theory in CSS
+							- ## 27 Sass color functions
+							- ## Uses for color functions
+						</script>
+					</section>
+
+					<section style="text-align: left">
+						<img src="http://cuyaproductions.com/imgs/diego_hernandez.png" style="border-radius: 50%; float: left; margin-right: 1em" />
+						<h2>Diego Hernandez</h2>
+						<h3 style="font-style: italic">Designer at Spiceworks</h3>
+						<p><a href="https://twitter.com/cuyaproductions">@cuyaproductions</a></p>
+					</section>
+				</section>
+
+
+				<section>
+					<section>
+						<h1><span style="color:#F00">C</span><span style="color:#F80">o</span><span style="color:#FF0">l</span><span style="color:#0F0">o</span><span style="color:#00F">r</span><span style="color:#F0F">!</span></h1>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							## Color theory summed up
+
+							![Color Wheel](https://upload.wikimedia.org/wikipedia/commons/6/6d/RGB_color_wheel_360.svg)
+
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							# RGB
+
+							## Red Green Blue
+
+						</script>
+					</section>
+					<section data-markdown style="background: url('http://sci.esa.int/science-e-media/img/cb/Figure_4_spectrum_High-energy_highlight.jpg') no-repeat center; background-size: 90%; height: 100vh">
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							````css
+							color: rgb(255, 0, 0); /* Red */
+							color: #FF0000; /* Red */
+							````
+							![](https://upload.wikimedia.org/wikipedia/commons/c/c2/AdditiveColor.svg)
+						</script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							# How many colors can we represent with RGB?
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							**Value range per color:** 0 - 255
+
+							**Total possible values per color:** 256
+						</script>
+					</section>
+
+					<section>
+							<h1>256<sup style="font-size: 0.7em">3</sup> = 16,777,216</h1>
+					</section>
+
+					<section style="background: url(http://www.brucelindbloom.com/downloads/RGB16Million.png) no-repeat center; background-size: contain; height: 80vh">
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							# HSLa
+
+							## [Hue Saturation Lightness Alpha](http://hslpicker.com/#f00/#0ff)
+
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							````css
+							color: hsla(0deg, 100%, 50%, 1); /* Red */
+							````
+
+							![Color Wheel](http://www.johnpaulcaponigro.com/blog/http://www.johnpaulcaponigro.com/blog/wp-content/themes/zinfandel-blue-10/images/hue_clock.jpg)
+
+						</script>
+					</section>
+
+				</section>
+
+
+				<section>
+					<section data-markdown>
+						<script type="text/template">
+							# Sass color functions
+
+							https://goo.gl/XBjRih
+						</script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							# Setters
+
+							[Functions](https://goo.gl/FmG89s) that help you declare a color
+						</script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							# Getters
+
+							[Functions](https://goo.gl/OtXznX) that help you get information about a color
+						</script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+							# Modifiers
+
+							[Functions](https://goo.gl/v3e282) that help you change a color into a different one
+						</script>
+					</section>
+				</section>
+
+				<section>
+					<h1>Thank you!</h1>
+					<h2>
+						<a href="https://twitter.com/cuyaproductions">@cuyaproductions</a>
+					</h2>
+				</section>
+
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
