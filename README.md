@@ -22,5 +22,5 @@ Click here to view my presentation slides.
 - [Practical Color Theory for People Who Code](http://tallys.github.io/color-theory/) by Natalya Shelbourne [@natalyathree](https://twitter.com/natalyathree)
 - [My interpretation of Natalya's tutorial](http://codepen.io/cuyaproductions/full/zqLjYR)
 - [SCSS/SASS Accessibility Color Methods](https://gist.github.com/haschek/1059983) by [Michael Haschke](https://github.com/haschek)
-- [How to programmatically go from one color to another in Sass](http://thesassway.com/advanced/how-to-programtically-go-from-one-color-to-another-in-sass) by Hugo Giraudel [@hugogiraudel](http://twitter/hugogiraudel)
+- [How to programmatically go from one color to another in Sass](http://thesassway.com/advanced/how-to-programtically-go-from-one-color-to-another-in-sass) by Hugo Giraudel [@hugogiraudel](https://twitter.com/hugogiraudel)
 - [Sass Functions Documentation](http://sass-lang.com/documentation/Sass/Script/Functions.html)
