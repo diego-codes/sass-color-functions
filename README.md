@@ -23,4 +23,5 @@ Click [here](http://cuyaproductions.github.io/sass-color-functions/presentation/
 - [My interpretation of Natalya's tutorial](http://codepen.io/cuyaproductions/full/zqLjYR)
 - [SCSS/SASS Accessibility Color Methods](https://gist.github.com/haschek/1059983) by [Michael Haschke](https://github.com/haschek)
 - [How to programmatically go from one color to another in Sass](http://thesassway.com/advanced/how-to-programtically-go-from-one-color-to-another-in-sass) by Hugo Giraudel [@hugogiraudel](https://twitter.com/hugogiraudel)
+- (Mixing Color for the Web with Sass)[http://alistapart.com/article/mixing-color-for-the-web-with-sass] by [Justin McDowell](http://revoltpuppy.com/)
 - [Sass Functions Documentation](http://sass-lang.com/documentation/Sass/Script/Functions.html)
