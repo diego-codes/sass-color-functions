@@ -2,7 +2,7 @@
 
 Sass color functions are very powerful and can help you remove the mysticism of how colors work in CSS.
 
-Click [here](http://cuyaproductions.github.io/sass-color-functions/presentation/#/) to view my presentation slides.
+Click [here](http://dhernandex.github.io/sass-color-functions/presentation/) to view my presentation slides.
 
 ## Tools to play with all color functions
 - [Setter functions](http://codepen.io/cuyaproductions/pen/ONBvdr)
@@ -20,8 +20,9 @@ Click [here](http://cuyaproductions.github.io/sass-color-functions/presentation/
 - [CSS3 color browser support](http://caniuse.com/#feat=css3-colors)
 - [Contrasted()](http://codepen.io/una/pen/oXgRYz?editors=0100) by Una Kravets [@una](https://twitter.com/Una)
 - [Practical Color Theory for People Who Code](http://tallys.github.io/color-theory/) by Natalya Shelbourne [@natalyathree](https://twitter.com/natalyathree)
-- [My interpretation of Natalya's tutorial](http://codepen.io/cuyaproductions/full/zqLjYR)
+- [My interpretation of Natalya's tutorial](http://codepen.io/cuyaproductions/pen/zqLjYR)
 - [SCSS/SASS Accessibility Color Methods](https://gist.github.com/haschek/1059983) by [Michael Haschke](https://github.com/haschek)
+- [SCSS/SASS Accessibility Color Methods Demo](http://codepen.io/cuyaproductions/pen/EygJrd)
 - [How to programmatically go from one color to another in Sass](http://thesassway.com/advanced/how-to-programtically-go-from-one-color-to-another-in-sass) by Hugo Giraudel [@hugogiraudel](https://twitter.com/hugogiraudel)
 - [Mixing Color for the Web with Sass](http://alistapart.com/article/mixing-color-for-the-web-with-sass) by [Justin McDowell](http://revoltpuppy.com/)
 - [Sass Functions Documentation](http://sass-lang.com/documentation/Sass/Script/Functions.html)
